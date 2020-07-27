@@ -1,0 +1,88 @@
+section{
+    display: grid;
+    grid-template-columns: 35vw auto;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.brandcontainer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin: auto;
+    margin: auto 2rem;
+}
+
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('images/Vector.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* border: 2px red solid; */
+}
+h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    /* border: 2px white solid; */
+    width: 401px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.formulaire {
+    padding: 5.2rem 15px 0px 1px !important;
+}
+/* Boostrap classes overriden */
+
+/* .btn-primary:hover {
+    color: #fff;
+    margin: 2rem auto;
+    background-color: #0069d9;
+    border-color: none !important;
+} */
+
+.btn{
+    height:50px;
+    width: 353px;
+    margin: 12px auto;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.btn-orange{
+    background-color: #E86E25;
+    color: #fff;
+    border-color: none !important;  
+}
+
+.btn-orange-outline{
+    background-color: none;
+    color: #E86E25;
+    border: 1px solid #E86E25;
+    border-color: none !important;  
+}
+
+.waka-input{
+    height: 50px;
+    font-size: 10px;
+    color: #C4C4C4;
+}
+
+/* @media {
+    
+} */
+
